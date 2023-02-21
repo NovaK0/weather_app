@@ -1,0 +1,55 @@
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.func
+{
+    width:20rem;
+    height: 30rem;
+    background-color: rgb(115, 183, 243);
+    margin-top: 8rem;
+    border-radius: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.textfield
+{
+    margin-left: 5rem;
+}
+.searchbutton
+{
+    margin-left: 9rem;
+    margin-top: .5rem;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2rem;
+}
+
+@media (max-width:480px){
+    .searchbutton{
+        margin-left: 8rem;
+    }
+    .textfield
+{
+    margin-left: 4rem;
+}
+
+}
+@media (max-width:1024px){
+    .searchbutton{
+        margin-left: 8.5rem;
+    }
+    .textfield
+{
+    margin-left: 5rem;
+}
+
+
+}
